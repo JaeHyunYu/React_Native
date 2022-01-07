@@ -1,0 +1,7 @@
+React Native는 안드로이드/IOS에게 버튼(요소)을 만들어달라고 요청
+	-> bridge를 통해!
+따라서 유저가 작성할 부분은 React Native code만 작성하면됨
+
+
+Ios/안드로이드가 사용자로부터 이벤트를 받게됨 -> bridge를통해 javascript(우리가 작성하는 코드)에 이벤트를 전달
+해당 이벤트를 처리하고, bridge를 통해 다시 native(Ios/안드로이드)부분으로 넘어가서 작동되어지는 것임
